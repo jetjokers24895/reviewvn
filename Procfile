@@ -1,0 +1,1 @@
+web: gunicorn reviewvn.wsgi

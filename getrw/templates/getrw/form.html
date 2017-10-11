@@ -1,0 +1,32 @@
+{% extends 'index/index.html' %}
+{% block content %}
+
+        <div class="container" style="margin-top:5%;padding-top:15%">
+          <div class="row">
+                <div class="col-lg-12 text-center ">
+
+    
+    <form action = "{% url 'getrw:createobj'%}"method= 'Post' role= "form">
+            {% csrf_token %}
+            <div class="form-group row">
+                <div class ="col-md-3 col-lg-3 col-xs3">
+                <label for="exampleInputEmail1"><b style="font-size:20px;color:rebeccapurple;"><span class="fa fa-2x fa-hand-o-right
+                  
+                  "></span>Tên Sản Phẩm</b></label>
+              </div>
+                <div class= "col-md-8 col-lg-8 col-xs-8">
+                <input type="text" class="form-control " name="keywords" placeholder="Tên Sản Phẩm mà bạn muốn tìm kiếm">
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-12 col-xs-12" >
+                
+                
+                <p class= "text-danger" sytle="font-size:28px; padding:1%">Dữ liệu đang được lấy khắp nơi trên Internet<br>Việc này sẽ mất vài phút</p>
+                </div>
+            <input type="submit" class= "btn btn-success" value="Tìm Review" />
+    </form>
+    </div>
+</div>
+</div>
+
+{% endblock %}            

@@ -3,3 +3,6 @@ Django==1.11.1
 gunicorn==19.6.0
 psycopg2==2.6.2
 whitenoise==3.2
+beautifulsoup4==4.6.0
+requests==2.18.4
+jinja2 == 2.9.6 

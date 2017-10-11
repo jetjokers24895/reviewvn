@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 import requests
-import sys
-import codecs
+#import sys
+#
 import re
 from bs4 import BeautifulSoup
-from bs4 import UnicodeDammit
-sys.stdout = codecs.getwriter("iso-8859-8")(sys.stdout, 'xmlcharrefreplace')
+#from bs4 import UnicodeDammit
+#sys.stdout = codecs.getwriter("iso-8859-8")(sys.stdout, 'xmlcharrefreplace')
 class object:
     def __init__(self,lnkweb,comment,lnkImg):
         #comment co kieu la chuoi
@@ -40,7 +40,7 @@ def getcomment(link): #lazada
     r= requests.get(link)
     soup = BeautifulSoup(r.text,'html.parser')
     fnd = soup.find_all("div","c-review__comment")
-    print len(fnd)
+    #print len(fnd)
     c = list()
     if len(fnd)!= 0:
         for i in fnd:

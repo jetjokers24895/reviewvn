@@ -9,7 +9,7 @@ def createobj(keywords):
     for i in fclass:
         linkweb = 'http://lazada.vn'+i.a.get("href")
         comment = getcomment(linkweb)
-        print len(comment)
+        #print len(comment)
         if len(comment) == 0 :
             continue
         else:

@@ -1,0 +1,6 @@
+<span class="image">
+<img alt="" class="product-image img-responsive" src="https://vcdn.tikicdn.com/cache/200x200/media/catalog/product/e/a/earpods7-1.u2470.d20170316.t174704.16207.jpg"/>
+<span class="product-right-icon">
+</span>
+<span class="gift js-product-gift-icon" title="- Nhập mã BDT450&amp;nbsp;để được tặng một tai nghe JBL T450 khi mua đơn hàng công nghệ, điện tử có giá trị từ trên 12 triệu đồng. Mua ngay tại đây: https://tiki.vn/top/hang-dinh-cong-nghe&lt;br /&gt;- Nhập mã BDM238&amp;nbsp;để được tặng một chuột không dây thương hiệu Logitech khi mua đơn hàng công nghệ, điện tử có giá trị từ 5 đến 8 triệu đồng. Mua ngay tại đây: https://tiki.vn/top/hang-dinh-cong-nghe&lt;br /&gt;- Nhập mã BDA1263&amp;nbsp;để được tặng một Pin sạc dự phòng Anker 10.000mAh khi mua đơn hàng công nghệ, điện tử có giá trị từ 8 đến 12 triệu đồng. Mua ngay tại đây: https://tiki.vn/top/hang-dinh-cong-nghe&lt;br /&gt;"></span>
+</span>

@@ -47,8 +47,8 @@ def getcomment(link): #lazada
             comment = i.string
             c.append(comment)
     return c
-link= '''http://www.lazada.vn/chuot-e-blue-puntero-ems146-1155624.html?spm=a2o4n.search.0.0.td3RpJ&ff=1'''
-getcomment(link)
+#link= '''http://www.lazada.vn/chuot-e-blue-puntero-ems146-1155624.html?spm=a2o4n.search.0.0.td3RpJ&ff=1'''
+#getcomment(link)
 def get_src(input): # get link src tu html element lazada
     rexp='("src": ")(.*)"' #lay link cua the span
     f = re.compile(str(rexp)).findall(str(input))
@@ -64,7 +64,7 @@ def search_lazada(keywords):
     r = requests.get("http://lazada.vn/catalog/",params=payload)# send request den lazada
     soup = BeautifulSoup(r.text,"html.parser")
     fclass = soup.find_all("div","c-product-card__img-placeholder")
-    return fclass
+    return fclass[0:7]
     #print fclass.name
     # f = open("text.txt","w")
     #for i in fclass :

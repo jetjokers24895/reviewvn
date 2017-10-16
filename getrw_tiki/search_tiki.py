@@ -5,10 +5,11 @@ from selenium import webdriver
 import os
 
 project_dir = os.path.dirname(os.path.abspath(__file__))
-project_dir = project_dir.replace('\\','/')
+#project_dir = project_dir.replace('\\','/')
 phantom_linuxdir = project_dir + '/phantom/linux/bin/phantomjs'
 phantom_windir = project_dir + '/phantom/windows/bin/phantomjs'
 client = webdriver.PhantomJS(phantom_linuxdir) ### crawler js
+print phantom_linuxdir
 #client = webdriver.PhantomJS(phantom_windir) ### crawler js
 
 

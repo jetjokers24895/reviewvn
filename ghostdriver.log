@@ -1,82 +1,42 @@
-[INFO  - 2017-10-16T11:50:41.472Z] GhostDriver - Main - running on port 65460
-[INFO  - 2017-10-16T11:50:43.980Z] Session [3db31960-b268-11e7-b125-4d59c4358836] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2017-10-16T11:50:43.981Z] Session [3db31960-b268-11e7-b125-4d59c4358836] - page.customHeaders:  - {}
-[INFO  - 2017-10-16T11:50:43.981Z] Session [3db31960-b268-11e7-b125-4d59c4358836] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2017-10-16T11:50:43.981Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 3db31960-b268-11e7-b125-4d59c4358836
-[ERROR - 2017-10-16T11:51:37.955Z] Session [3db31960-b268-11e7-b125-4d59c4358836] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'F.forEach')
+[INFO  - 2017-10-16T12:18:11.819Z] GhostDriver - Main - running on port 51593
+[INFO  - 2017-10-16T12:18:14.360Z] Session [15671a20-b26c-11e7-9fe8-031345d15caf] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-10-16T12:18:14.360Z] Session [15671a20-b26c-11e7-9fe8-031345d15caf] - page.customHeaders:  - {}
+[INFO  - 2017-10-16T12:18:14.361Z] Session [15671a20-b26c-11e7-9fe8-031345d15caf] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-10-16T12:18:14.361Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 15671a20-b26c-11e7-9fe8-031345d15caf
+[ERROR - 2017-10-16T12:18:53.076Z] Session [15671a20-b26c-11e7-9fe8-031345d15caf] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'F.forEach')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-10-16T11:51:37.957Z] Session [3db31960-b268-11e7-b125-4d59c4358836] - page.onError - stack:
+[ERROR - 2017-10-16T12:18:53.078Z] Session [15671a20-b26c-11e7-9fe8-031345d15caf] - page.onError - stack:
   w (https://connect.facebook.net/signals/config/1541902979357787?v=2.7.23:23)
   aa (https://connect.facebook.net/signals/config/1541902979357787?v=2.7.23:23)
   r (https://connect.facebook.net/signals/config/1541902979357787?v=2.7.23:23)
   (anonymous function) (https://connect.facebook.net/signals/config/1541902979357787?v=2.7.23:23)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-10-16T11:51:37.968Z] Session [3db31960-b268-11e7-b125-4d59c4358836] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'F.forEach')
+[ERROR - 2017-10-16T12:18:53.090Z] Session [15671a20-b26c-11e7-9fe8-031345d15caf] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'F.forEach')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-10-16T11:51:37.968Z] Session [3db31960-b268-11e7-b125-4d59c4358836] - page.onError - stack:
+[ERROR - 2017-10-16T12:18:53.091Z] Session [15671a20-b26c-11e7-9fe8-031345d15caf] - page.onError - stack:
   w (https://connect.facebook.net/signals/config/1541902979357787?v=2.7.23:23)
   aa (https://connect.facebook.net/signals/config/1541902979357787?v=2.7.23:23)
   r (https://connect.facebook.net/signals/config/1541902979357787?v=2.7.23:23)
   (anonymous function) (https://connect.facebook.net/signals/config/1541902979357787?v=2.7.23:23)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-10-16T11:51:49.589Z] Session [3db31960-b268-11e7-b125-4d59c4358836] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'F.forEach')
+[ERROR - 2017-10-16T12:19:10.686Z] Session [15671a20-b26c-11e7-9fe8-031345d15caf] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'F.forEach')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-10-16T11:51:49.589Z] Session [3db31960-b268-11e7-b125-4d59c4358836] - page.onError - stack:
+[ERROR - 2017-10-16T12:19:10.686Z] Session [15671a20-b26c-11e7-9fe8-031345d15caf] - page.onError - stack:
   w (https://connect.facebook.net/signals/config/1541902979357787?v=2.7.23:23)
   aa (https://connect.facebook.net/signals/config/1541902979357787?v=2.7.23:23)
   r (https://connect.facebook.net/signals/config/1541902979357787?v=2.7.23:23)
   (anonymous function) (https://connect.facebook.net/signals/config/1541902979357787?v=2.7.23:23)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-10-16T11:51:49.604Z] Session [3db31960-b268-11e7-b125-4d59c4358836] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'F.forEach')
+[ERROR - 2017-10-16T12:19:10.700Z] Session [15671a20-b26c-11e7-9fe8-031345d15caf] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'F.forEach')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-10-16T11:51:49.604Z] Session [3db31960-b268-11e7-b125-4d59c4358836] - page.onError - stack:
-  w (https://connect.facebook.net/signals/config/1541902979357787?v=2.7.23:23)
-  aa (https://connect.facebook.net/signals/config/1541902979357787?v=2.7.23:23)
-  r (https://connect.facebook.net/signals/config/1541902979357787?v=2.7.23:23)
-  (anonymous function) (https://connect.facebook.net/signals/config/1541902979357787?v=2.7.23:23)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-10-16T11:52:03.157Z] Session [3db31960-b268-11e7-b125-4d59c4358836] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'F.forEach')
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-10-16T11:52:03.157Z] Session [3db31960-b268-11e7-b125-4d59c4358836] - page.onError - stack:
-  w (https://connect.facebook.net/signals/config/1541902979357787?v=2.7.23:23)
-  aa (https://connect.facebook.net/signals/config/1541902979357787?v=2.7.23:23)
-  r (https://connect.facebook.net/signals/config/1541902979357787?v=2.7.23:23)
-  (anonymous function) (https://connect.facebook.net/signals/config/1541902979357787?v=2.7.23:23)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-10-16T11:52:03.168Z] Session [3db31960-b268-11e7-b125-4d59c4358836] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'F.forEach')
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-10-16T11:52:03.168Z] Session [3db31960-b268-11e7-b125-4d59c4358836] - page.onError - stack:
-  w (https://connect.facebook.net/signals/config/1541902979357787?v=2.7.23:23)
-  aa (https://connect.facebook.net/signals/config/1541902979357787?v=2.7.23:23)
-  r (https://connect.facebook.net/signals/config/1541902979357787?v=2.7.23:23)
-  (anonymous function) (https://connect.facebook.net/signals/config/1541902979357787?v=2.7.23:23)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-10-16T11:52:11.574Z] Session [3db31960-b268-11e7-b125-4d59c4358836] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'F.forEach')
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-10-16T11:52:11.574Z] Session [3db31960-b268-11e7-b125-4d59c4358836] - page.onError - stack:
-  w (https://connect.facebook.net/signals/config/1541902979357787?v=2.7.23:23)
-  aa (https://connect.facebook.net/signals/config/1541902979357787?v=2.7.23:23)
-  r (https://connect.facebook.net/signals/config/1541902979357787?v=2.7.23:23)
-  (anonymous function) (https://connect.facebook.net/signals/config/1541902979357787?v=2.7.23:23)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-10-16T11:52:11.588Z] Session [3db31960-b268-11e7-b125-4d59c4358836] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'F.forEach')
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-10-16T11:52:11.589Z] Session [3db31960-b268-11e7-b125-4d59c4358836] - page.onError - stack:
+[ERROR - 2017-10-16T12:19:10.701Z] Session [15671a20-b26c-11e7-9fe8-031345d15caf] - page.onError - stack:
   w (https://connect.facebook.net/signals/config/1541902979357787?v=2.7.23:23)
   aa (https://connect.facebook.net/signals/config/1541902979357787?v=2.7.23:23)
   r (https://connect.facebook.net/signals/config/1541902979357787?v=2.7.23:23)

@@ -19,5 +19,6 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^',include('index.urls')),
-    url(r'^get-review/',include('getrw.urls'))
+    url(r'^get-review-lazada/',include('getrw.urls')),
+    url(r'^get-review-tiki/',include('getrw_tiki.urls'))
 ]

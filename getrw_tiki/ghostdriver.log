@@ -1,0 +1,25 @@
+[INFO  - 2017-10-16T10:57:36.507Z] GhostDriver - Main - running on port 59112
+[INFO  - 2017-10-16T10:57:38.355Z] Session [d2ea3b60-b260-11e7-be16-6b1d12347f37] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-10-16T10:57:38.355Z] Session [d2ea3b60-b260-11e7-be16-6b1d12347f37] - page.customHeaders:  - {}
+[INFO  - 2017-10-16T10:57:38.356Z] Session [d2ea3b60-b260-11e7-be16-6b1d12347f37] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-10-16T10:57:38.356Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: d2ea3b60-b260-11e7-be16-6b1d12347f37
+[ERROR - 2017-10-16T10:57:53.027Z] Session [d2ea3b60-b260-11e7-be16-6b1d12347f37] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'F.forEach')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-10-16T10:57:53.027Z] Session [d2ea3b60-b260-11e7-be16-6b1d12347f37] - page.onError - stack:
+  w (https://connect.facebook.net/signals/config/1541902979357787?v=2.7.23:23)
+  aa (https://connect.facebook.net/signals/config/1541902979357787?v=2.7.23:23)
+  r (https://connect.facebook.net/signals/config/1541902979357787?v=2.7.23:23)
+  (anonymous function) (https://connect.facebook.net/signals/config/1541902979357787?v=2.7.23:23)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-10-16T10:57:53.039Z] Session [d2ea3b60-b260-11e7-be16-6b1d12347f37] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'F.forEach')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-10-16T10:57:53.039Z] Session [d2ea3b60-b260-11e7-be16-6b1d12347f37] - page.onError - stack:
+  w (https://connect.facebook.net/signals/config/1541902979357787?v=2.7.23:23)
+  aa (https://connect.facebook.net/signals/config/1541902979357787?v=2.7.23:23)
+  r (https://connect.facebook.net/signals/config/1541902979357787?v=2.7.23:23)
+  (anonymous function) (https://connect.facebook.net/signals/config/1541902979357787?v=2.7.23:23)
+
+  phantomjs://platform/console++.js:263 in error

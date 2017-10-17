@@ -30,12 +30,13 @@ class object_tiki:
 
 def search_tiki(keywords):
     payload={
-        'q' : keywords 
+        'q' : keywords,
+        'order':'top_seller'
         }# tao url
     r = requests.get("https://tiki.vn/search",params=payload)# send request den lazada
     soup = BeautifulSoup(r.text,"html.parser") 
     fclass = soup.find_all("div","product-item")
-    return fclass[0:1] # tra ve 5 phan tu
+    return fclass[0:3] # tra ve 5 phan tu
 
 def get_comment(link):
     
@@ -65,3 +66,4 @@ def get_src(input): # get link src tu html element lazada
     f = re.compile(str(rexp)).findall(str(input))
     return f[0][1]
 #search_tiki("iphone 7")
+

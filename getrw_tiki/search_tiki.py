@@ -36,7 +36,7 @@ def search_tiki(keywords):
     r = requests.get("https://tiki.vn/search",params=payload)# send request den lazada
     soup = BeautifulSoup(r.text,"html.parser") 
     fclass = soup.find_all("div","product-item")
-    return fclass[0:2] # tra ve 5 phan tu
+    return fclass[0:3] # tra ve 5 phan tu
 
 def get_comment(link):
     

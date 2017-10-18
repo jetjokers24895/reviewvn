@@ -20,5 +20,6 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^',include('index.urls')),
     url(r'^get-review-lazada/',include('getrw.urls')),
-    url(r'^get-review-tiki/',include('getrw_tiki.urls'))
+    url(r'^get-review-tiki/',include('getrw_tiki.urls')),
+    url(r'^get-review-vat-gia/',include('getrw_vatgia.urls')),
 ]

@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'index',
     'getrw',
     'getrw_tiki',
+    'getrw_vatgia',
 ]
 
 MIDDLEWARE = [

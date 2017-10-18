@@ -49,7 +49,7 @@
               <a class="nav-link js-scroll-trigger" href="{% url "getrw_tiki:getrw_tiki" %}">Xem Review Tiki</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+              <a class="nav-link js-scroll-trigger" href="{% url "getrw_vatgia:getrw_vatgia" %}">Xem Review VatGia</a>
             </li>
           </ul>
         </div>
@@ -59,24 +59,26 @@
     <header class="masthead">
       <div class="header-content">
         <div class="header-content-inner">
-          <h1 id="homeHeading"> <span class ="bullhorn"></span>Your Favorite Source of Free Bootstrap Themes</h1>
+          <h1 id="homeHeading"> <span class ="bullhorn"></span>Mua Sắm Tiện Ích Hơn</h1>
           <hr>
-          <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
-          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+          <p>Hãy Sử dụng các Ứng dụng miễn phí của chúng tôi</p>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Xem Review</a>
         </div>
       </div>
     </header>
    
     <section class="bg-primary" id="about">
-      <div class="container">
+      <div class="container container-fluid">
         <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading text-white">We've got what you need!</h2>
-            <hr class="light">
-            
-            
-            <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-            <a class="btn btn-default btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+          <div class= "col-md-4 col-lg-4 col-xs-4">
+            <a href="{% url "getrw:getreview" %}"><img class="img-responsive" height="300" width="300" src="{% static "img/logo-lazada.jpg"%}">
+            </a>
+          </div>
+          <div class= "col-md-4 col-lg-4 col-xs-4">
+              <a href="{% url "getrw_tiki:getrw_tiki" %}"><img class="img-responsive" height="300" width="300" src="{% static "img/logo-tiki.png"%}"></a>
+          </div>
+          <div class= "col-md-4 col-lg-4 col-xs-4">
+              <a href="{% url "getrw_vatgia:getrw_vatgia" %}"> <img class="img-responsive" height="300" width="300" src="{% static "img/logo-vat-gia.png"%}"></a>
           </div>
         </div>
       </div>

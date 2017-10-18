@@ -39,15 +39,14 @@ def get_comment(link): #lazada
     #print len(fnd)
     c = list()
     if len(fnd)!= 0:
-        for i in fnd:
-            comment = i.string
+        for i in range(fnd):
+            comment = fnd[i].span.text
             c.append(comment)
     return c
 
 #link= '''http://vatgia.com/bantoanquoc&module=product&view=detail&record_id=5958125'''
 #get_comment(link)
-
-
+print range(5)
 
 def search_vatgia(keywords):
     link = 'http://vatgia.com/home/quicksearch.php?keyword='+keywords.replace(' ','+')+'&sort=5'

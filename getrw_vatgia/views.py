@@ -10,7 +10,7 @@ def getrw_vatgia(requests):
 def createobj(keywords):
     fclass = search_vatgia.search_vatgia(keywords)
     listobj=list()
-    for i in range(fclass):
+    for i in range(len(fclass)):
         linkweb = 'http://vatgia.com/'+fclass[i].get("href")
         comment = search_vatgia.get_comment(linkweb)
         #print len(comment)

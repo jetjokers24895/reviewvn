@@ -39,7 +39,7 @@ def get_comment(link): #lazada
     #print len(fnd)
     c = list()
     if len(fnd)!= 0:
-        for i in range(fnd):
+        for i in range(len(fnd)):
             comment = fnd[i].span.text
             c.append(comment)
     return c

@@ -39,24 +39,26 @@ def get_comment(link): #lazada
     #print len(fnd)
     c = list()
     if len(fnd)!= 0:
-        for i in range(len(fnd)):
-            comment = fnd[i].span.text
+        for i in fnd :
+            comment = i.text
             c.append(comment)
     return c
 
-#link= '''http://vatgia.com/bantoanquoc&module=product&view=detail&record_id=5958125'''
-#get_comment(link)
-print range(5)
 
 def search_vatgia(keywords):
-    link = 'http://vatgia.com/home/quicksearch.php?keyword='+keywords.replace(' ','+')+'&sort=5'
+    k=keywords.replace(' ','+')
+    link = 'http://vatgia.com/home/quicksearch.php?keyword='+k+'&sort=5'
     client.get(link)
     soup = BeautifulSoup(client.page_source,"html.parser")
-    fclass = soup.find_all("a","picture_link")
-    return fclass[0:6]
-    #print i.img.get('src')
- 
+    fclass = soup.find_all("a","picture_link",limit=5)
+    return fclass
 
-
-#######################end lazada################################
-#search_vatgia("iphone 7")
+def get_src(input): # get link src tu html element lazada
+    rexp='(src=")(.*)"' #lay link cua the span
+    f = re.compile(str(rexp)).findall(str(input))
+    if f == []:
+        print "1"
+        rexp='(url\()(.*)\)'
+        f = re.compile(str(rexp)).findall(str(input))
+    return f[0][1]
+#search_vatgia("iphone 5")

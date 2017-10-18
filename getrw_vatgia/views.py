@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
-from . import search_vatgia
 from django.shortcuts import render
+#from . import search_vatgia
+import search_vatgia
 
 # Create your views here.
 def getrw_vatgia(requests):
@@ -10,18 +11,17 @@ def getrw_vatgia(requests):
 def createobj(keywords):
     fclass = search_vatgia.search_vatgia(keywords)
     listobj=list()
-    for i in range(len(fclass)):
-        linkweb = 'http://vatgia.com/'+fclass[i].get("href")
+    for i in fclass:
+        linkweb = 'http://vatgia.com'+i.get("href")
         comment = search_vatgia.get_comment(linkweb)
         #print len(comment)
         if len(comment) == 0 :
             continue
         else:
             #print comment
-            linkimg = fclass[i].img.get('src')
+            linkimg = search_vatgia.get_src(i)
             obj= search_vatgia.object(linkweb,comment,linkimg) 
             listobj.append(obj)
-        
     return listobj
 
 def mainaction(requests):

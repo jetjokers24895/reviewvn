@@ -63,8 +63,8 @@ def search_lazada(keywords):
         }# tao url
     r = requests.get("http://lazada.vn/catalog/",params=payload)# send request den lazada
     soup = BeautifulSoup(r.text,"html.parser")
-    fclass = soup.find_all("div","c-product-card__img-placeholder")
-    return fclass[0:7]
+    fclass = soup.find_all("div","c-product-card__img-placeholder",limit=7)
+    return fclass
     #print fclass.name
     # f = open("text.txt","w")
     #for i in fclass :

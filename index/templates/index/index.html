@@ -66,12 +66,11 @@
         </div>
       </div>
     </header>
-   
-    <section class="bg-primary" id="about">
+    <section class="bg-primary p-0" id="about">
       <div class="container container-fluid">
-        <div class="row">
+        <div class="row no-gutter popup-gallery">
           <div class= "col-md-4 col-lg-4 col-xs-4">
-            <a href="{% url "getrw:getreview" %}"><img class="img-responsive" height="300" width="300" src="{% static "img/logo-lazada.jpg"%}">
+            <a href="{% url "getrw:getreview" %}" class="portfolio-box"><img class="img-responsive" height="300" width="300" src="{% static "img/logo-lazada.jpg"%}">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -84,8 +83,9 @@
               </div>
             </a>
           </div>
+          
           <div class= "col-md-4 col-lg-4 col-xs-4">
-              <a href="{% url "getrw_tiki:getrw_tiki" %}"><img class="img-responsive" height="300" width="300" src="{% static "img/logo-tiki.png"%}">
+              <a href="{% url "getrw_tiki:getrw_tiki" %}" class="portfolio-box"><img class="img-responsive" height="300" width="300" src="{% static "img/logo-tiki.png"%}">
                 <div class="portfolio-box-caption">
                   <div class="portfolio-box-caption-content">
                     <div class="project-category text-faded">
@@ -99,7 +99,7 @@
               </a>
           </div>
           <div class= "col-md-4 col-lg-4 col-xs-4">
-              <a href="{% url "getrw_vatgia:getrw_vatgia" %}"> <img class="img-responsive" height="300" width="300" src="{% static "img/logo-vat-gia.png"%}">
+              <a href="{% url "getrw_vatgia:getrw_vatgia" %}" class="portfolio-box"> <img class="img-responsive" height="300" width="300" src="{% static "img/logo-vat-gia.png"%}">
                 <div class="portfolio-box-caption">
                   <div class="portfolio-box-caption-content">
                     <div class="project-category text-faded">

@@ -66,51 +66,19 @@
         </div>
       </div>
     </header>
-    <section class="bg-primary p-0" id="about">
+   
+    <section class="bg-primary" id="about">
       <div class="container container-fluid">
-        <div class="row no-gutter popup-gallery">
+        <div class="row">
           <div class= "col-md-4 col-lg-4 col-xs-4">
-            <a href="{% url "getrw:getreview" %}" class="portfolio-box"><img class="img-responsive" height="300" width="300" src="{% static "img/logo-lazada.jpg"%}">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Xem Review tại
-                  </div>
-                  <div class="project-name">
-                    LaZaDa
-                  </div>
-                </div>
-              </div>
+            <a href="{% url "getrw:getreview" %}"><img class="img-responsive" height="300" width="300" src="{% static "img/logo-lazada.jpg"%}">
             </a>
           </div>
-          
           <div class= "col-md-4 col-lg-4 col-xs-4">
-              <a href="{% url "getrw_tiki:getrw_tiki" %}" class="portfolio-box"><img class="img-responsive" height="300" width="300" src="{% static "img/logo-tiki.png"%}">
-                <div class="portfolio-box-caption">
-                  <div class="portfolio-box-caption-content">
-                    <div class="project-category text-faded">
-                      Xem Review Tại
-                    </div>
-                    <div class="project-name">
-                      Tiki
-                    </div>
-                  </div>
-                </div>
-              </a>
+              <a href="{% url "getrw_tiki:getrw_tiki" %}"><img class="img-responsive" height="300" width="300" src="{% static "img/logo-tiki.png"%}"></a>
           </div>
           <div class= "col-md-4 col-lg-4 col-xs-4">
-              <a href="{% url "getrw_vatgia:getrw_vatgia" %}" class="portfolio-box"> <img class="img-responsive" height="300" width="300" src="{% static "img/logo-vat-gia.png"%}">
-                <div class="portfolio-box-caption">
-                  <div class="portfolio-box-caption-content">
-                    <div class="project-category text-faded">
-                      Xem Review Tại
-                    </div>
-                    <div class="project-name">
-                      Vatgia.com
-                    </div>
-                  </div>
-                </div>
-              </a>
+              <a href="{% url "getrw_vatgia:getrw_vatgia" %}"> <img class="img-responsive" height="300" width="300" src="{% static "img/logo-vat-gia.png"%}"></a>
           </div>
         </div>
       </div>

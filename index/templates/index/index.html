@@ -25,6 +25,7 @@
     <!-- Custom styles for this template -->
     <link href="{% static "css/creative.min.css"%}" rel="stylesheet">
     <link href="{% static "css/modifi.css" %}" rel="stylesheet">
+    <link href="{% static "css/logo.css" %}" rel="stylesheet">
 
   </head>
 
@@ -73,18 +74,30 @@
     <section class="bg-primary" id="about">
       <div class="container container-fluid">
         <div class="row">
-          <div class= "col-md-4 col-lg-4 col-xs-4">
-            <a href="{% url "getrw:getreview" %}"><img class="img-responsive" height="300" width="300" src="{% static "img/logo-lazada.jpg"%}">
-            </a>
+          <div class= "col-md-4 col-lg-4 col-xs-4 logo">
+            <a href="{% url "getrw:getreview" %}"><img class="img-responsive" height="300" width="300" src="{% static "img/logo-lazada.jpg"%}"></a>
+            <a class="text-logo" href="{% url "getrw:getreview" %}">Xem Review LAZADA</a>
           </div>
-          <div class= "col-md-4 col-lg-4 col-xs-4">
+          <div class= "col-md-4 col-lg-4 col-xs-4 logo">
               <a href="{% url "getrw_tiki:getrw_tiki" %}"><img class="img-responsive" height="300" width="300" src="{% static "img/logo-tiki.png"%}"></a>
+              <a class="text-logo" href="{% url "getrw:getreview" %}">Xem Review TIKI</a>
           </div>
-          <div class= "col-md-4 col-lg-4 col-xs-4">
+          <div class= "col-md-4 col-lg-4 col-xs-4 logo">
               <a href="{% url "getrw_vatgia:getrw_vatgia" %}"> <img class="img-responsive" height="300" width="300" src="{% static "img/logo-vat-gia.png"%}"></a>
+              <a class="text-logo" href="{% url "getrw:getreview" %}">Xem Review VatGia</a>
           </div>
         </div>
       </div>
+          <div class="container container-fluid">
+          <div class="row" style="margin-top:1%">
+          <div class= "col-md-4 col-lg-4 col-xs-4 logo">
+              <a href="{% url "getrw_adayroi:getrw_adayroi" %}"> <img class="img-responsive" height="300" width="300" src="{% static "img/a-day-roi.png"%}"></a>
+              <a class="text-logo" href="{% url "getrw:getreview" %}">Xem Review Adayroi</a>
+          </div>           
+        </div> 
+      </div>
+      
+
     </section>
 <!--
     <section id="services">

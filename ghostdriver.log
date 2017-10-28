@@ -1,0 +1,98 @@
+[INFO  - 2017-10-28T16:11:46.236Z] GhostDriver - Main - running on port 64727
+[INFO  - 2017-10-28T16:11:47.777Z] Session [b301d7b0-bbfa-11e7-958e-e562f96492e9] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-10-28T16:11:47.778Z] Session [b301d7b0-bbfa-11e7-958e-e562f96492e9] - page.customHeaders:  - {}
+[INFO  - 2017-10-28T16:11:47.778Z] Session [b301d7b0-bbfa-11e7-958e-e562f96492e9] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-10-28T16:11:47.778Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: b301d7b0-bbfa-11e7-958e-e562f96492e9
+[INFO  - 2017-10-28T16:16:40.791Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-10-28T16:21:40.801Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-10-28T16:26:40.801Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-10-28T16:31:40.838Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-10-28T16:30:23.607Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-10-28T16:24:59.334Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-10-28T16:30:23.608Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-10-28T16:17:34.048Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-10-28T16:22:34.047Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-10-28T16:27:34.048Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-10-28T16:32:34.096Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-10-28T16:31:31.801Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-10-28T16:33:04.988Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-10-28T16:32:04.003Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+11e7-958e-e562f96492e9] - page.onError - msg: ReferenceError: Can't find variable: adr_banner_write_banner
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-10-28T16:12:19.562Z] Session [b301d7b0-bbfa-11e7-958e-e562f96492e9] - page.onError - stack:
+  global code (https://cdn01.static-adayroi.com/adr_banner/data/adr_banner_data_zone_45.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-10-28T16:12:20.206Z] Session [b301d7b0-bbfa-11e7-958e-e562f96492e9] - page.onError - msg: ReferenceError: Can't find variable: adr_banner_write_banner
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-10-28T16:12:20.206Z] Session [b301d7b0-bbfa-11e7-958e-e562f96492e9] - page.onError - stack:
+  global code (https://cdn01.static-adayroi.com/adr_banner/data/adr_banner_data_zone_38.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-10-28T16:12:29.784Z] Session [b301d7b0-bbfa-11e7-958e-e562f96492e9] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'Object.assign')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-10-28T16:12:29.784Z] Session [b301d7b0-bbfa-11e7-958e-e562f96492e9] - page.onError - stack:
+  (anonymous function) (https://www.adayroi.com/man-hinh-cong-samsung-qled-lc49hg90-49-inches-den-tang-ngay-dien-thoai-samsung-galaxy-s8-mau-sac-ngau-nhien-p-JKJeg-f3-2?pi=r0qBL&w=r6jQ&mc=klvD:4)
+  u (https://cdn02.static-adayroi.com/0/2017/01/05/1483583759698_6975151.js?v=vendor.20161231.1430:2)
+  add (https://cdn02.static-adayroi.com/0/2017/01/05/1483583759698_6975151.js?v=vendor.20161231.1430:2)
+  ready (https://cdn02.static-adayroi.com/0/2017/01/05/1483583759698_6975151.js?v=vendor.20161231.1430:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-10-28T16:13:09.813Z] Session [b301d7b0-bbfa-11e7-958e-e562f96492e9] - page.onError - msg: ReferenceError: Can't find variable: adr_banner_write_banner
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-10-28T16:13:09.814Z] Session [b301d7b0-bbfa-11e7-958e-e562f96492e9] - page.onError - stack:
+  global code (https://cdn01.static-adayroi.com/adr_banner/data/adr_banner_data_zone_49.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-10-28T16:13:09.956Z] Session [b301d7b0-bbfa-11e7-958e-e562f96492e9] - page.onError - msg: ReferenceError: Can't find variable: adr_banner_write_banner
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-10-28T16:13:09.957Z] Session [b301d7b0-bbfa-11e7-958e-e562f96492e9] - page.onError - stack:
+  global code (https://cdn01.static-adayroi.com/adr_banner/data/adr_banner_data_zone_40.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-10-28T16:13:09.959Z] Session [b301d7b0-bbfa-11e7-958e-e562f96492e9] - page.onError - msg: ReferenceError: Can't find variable: adr_banner_write_banner
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-10-28T16:13:09.959Z] Session [b301d7b0-bbfa-11e7-958e-e562f96492e9] - page.onError - stack:
+  global code (https://cdn01.static-adayroi.com/adr_banner/data/adr_banner_data_zone_57.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-10-28T16:13:09.961Z] Session [b301d7b0-bbfa-11e7-958e-e562f96492e9] - page.onError - msg: ReferenceError: Can't find variable: adr_banner_write_banner
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-10-28T16:13:09.961Z] Session [b301d7b0-bbfa-11e7-958e-e562f96492e9] - page.onError - stack:
+  global code (https://cdn01.static-adayroi.com/adr_banner/data/adr_banner_data_zone_58.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-10-28T16:13:10.295Z] Session [b301d7b0-bbfa-11e7-958e-e562f96492e9] - page.onError - msg: ReferenceError: Can't find variable: adr_banner_write_banner
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-10-28T16:13:10.296Z] Session [b301d7b0-bbfa-11e7-958e-e562f96492e9] - page.onError - stack:
+  global code (https://cdn01.static-adayroi.com/adr_banner/data/adr_banner_data_zone_38.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-10-28T16:13:10.300Z] Session [b301d7b0-bbfa-11e7-958e-e562f96492e9] - page.onError - msg: ReferenceError: Can't find variable: adr_banner_write_banner
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-10-28T16:13:10.301Z] Session [b301d7b0-bbfa-11e7-958e-e562f96492e9] - page.onError - stack:
+  global code (https://cdn01.static-adayroi.com/adr_banner/data/adr_banner_data_zone_45.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-10-28T16:13:13.894Z] Session [b301d7b0-bbfa-11e7-958e-e562f96492e9] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'Object.assign')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-10-28T16:13:13.895Z] Session [b301d7b0-bbfa-11e7-958e-e562f96492e9] - page.onError - stack:
+  (anonymous function) (https://www.adayroi.com/samsung-galaxy-s8-plus-g955f-xanh-p-bO727-f1-2?pi=1y72P&w=R8nz&mc=wn4M:4)
+  u (https://cdn02.static-adayroi.[INFO  - 2017-10-28T16:15:02.480Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-10-28T16:20:02.480Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-10-28T16:25:02.480Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-10-28T16:30:23.605Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+s - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-10-28T16:26:46.231Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-10-28T16:31:46.196Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        [INFO  - 2017-10-28T16:12:39.309Z] SessionManagerReqHan[INFO  - 2017-10-28T16:15:04.463Z] SessionManagerReqHand - _cleanupWindowlessSession[INFO  - 2017-10-28T16:17:39.308Z] SessionManagerReqHan[INFO  - 2017-10-28T16:20:04.463Z] SessionManagerReqHand - _cleanupWindowlessSession[INFO  - 2017-10-28T16:22:39.309Z] SessionManagerReqHan[INFO  - 2017-10-28T16:25:04.464Z] SessionManagerReqHand - _cleanupWindowlessSession[INFO  - 2017-10-28T16:27:39.310Z] SessionManagerReqHan[INFO  - 2017-10-28T16:30:23.619Z] SessionManagerReqHand - _cleanupWindowlessSession[INFO  - 2017-10-28T16:32:39.275Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW

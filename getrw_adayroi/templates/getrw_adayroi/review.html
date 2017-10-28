@@ -1,0 +1,32 @@
+{% extends 'index/index.html' %}
+{%block title%}
+<title>Adayroi - Xem Review</title>
+{% endblock %}
+{% block content %}
+<div class= "container container-fluid"></div>
+{% for i in lst %}
+
+    <div class ="row the">
+            <div class = "col-md-3 col-lg-3 col-xs-3">
+                <img class="img img-responsive img-thumbnail" src="{{i.lnkImg}}" alt="">
+            </div>
+            <div class = "col-md-9 col-lg-9 col-xs-9">
+            <a class = "btn btn-primary" href="{{i.lnkweb}}" style="margin-bottom: 1%;">Đi Đến WebSite</a>
+            {% for cm in i.comment %}
+            
+            <p style="color:#69605e;border: 0.5px;border-color: #fff3f3;border-style: groove;padding: 1%;">
+                
+                {{ cm }}
+            </p>
+            {% endfor %}
+                
+                
+
+            </div>
+        </div>
+
+    </div>
+
+{% endfor %}
+</div>
+{% endblock %}

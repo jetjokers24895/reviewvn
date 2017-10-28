@@ -7,3 +7,4 @@ beautifulsoup4==4.6.0
 requests==2.18.4
 jinja2 == 2.9.6
 selenium==3.6.0
+Google-Search-API==1.1.13

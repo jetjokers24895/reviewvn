@@ -22,4 +22,6 @@ urlpatterns = [
     url(r'^get-review-lazada/',include('getrw.urls')),
     url(r'^get-review-tiki/',include('getrw_tiki.urls')),
     url(r'^get-review-vat-gia/',include('getrw_vatgia.urls')),
+    url(r'^google_search',include('google_search.urls')),
+    url(r'^get-review-a-day-roi/',include('getrw_adayroi.urls')),
 ]

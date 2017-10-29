@@ -1,4 +1,4 @@
-
+# -*- coding: utf-8 -*-
 import requests
 import re
 from bs4 import BeautifulSoup
@@ -12,7 +12,7 @@ project_dir = os.path.dirname(os.path.abspath(__file__))
 phantom_windir = project_dir + '/phantom/windows/bin/phantomjs'
 #print phantom_linuxdir
 #client = webdriver.PhantomJS(executable_path=r'/app/getrw_tiki/phantom/linux/bin/phantomjs') ### crawler js
-client = webdriver.PhantomJS
+client = webdriver.PhantomJS()
 #lient = webdriver.PhantomJS(phantom_windir) ### crawler js
 class object_adayroi:
     def __init__(self,lnkweb,comment,lnkImg):
@@ -42,7 +42,7 @@ def search_adayroi(keywords):
     return fclass # tra ve 2phan tu
 #search_adayroi('samsung galaxy s8')
 def get_comment(link):
-    client.get(link)
+    client.get(unicode(link))
     soup = BeautifulSoup(client.page_source,'html.parser')
     fclass = soup.find_all('div','comment-body')
     c = list()

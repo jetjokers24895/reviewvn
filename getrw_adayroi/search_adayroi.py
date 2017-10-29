@@ -11,9 +11,9 @@ project_dir = os.path.dirname(os.path.abspath(__file__))
 #phantom_linuxdir= '/app/getrw_tiki/phantom/linux/bin/phantomjs'
 phantom_windir = project_dir + '/phantom/windows/bin/phantomjs'
 #print phantom_linuxdir
-#client = webdriver.PhantomJS(executable_path=r'/app/getrw_tiki/phantom/linux/bin/phantomjs') ### crawler js
+client = webdriver.PhantomJS(executable_path=r'/app/getrw_tiki/phantom/linux/bin/phantomjs') ### crawler js
 client = webdriver.PhantomJS
-#client = webdriver.PhantomJS(phantom_windir) ### crawler js
+#lient = webdriver.PhantomJS(phantom_windir) ### crawler js
 class object_adayroi:
     def __init__(self,lnkweb,comment,lnkImg):
         #comment co kieu la chuoi

@@ -2,7 +2,7 @@
 from __future__ import unicode_literals
 from django.shortcuts import render
 #from . import search_vatgia
-import search_vatgia
+from . import search_vatgia
 
 # Create your views here.
 def getrw_vatgia(requests):

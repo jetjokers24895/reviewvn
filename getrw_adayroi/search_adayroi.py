@@ -7,12 +7,12 @@ import os
 
 project_dir = os.path.dirname(os.path.abspath(__file__))
 #project_dir = project_dir.replace('\\','/')
-phantom_linuxdir = project_dir + '/phantom/linux/bin/phantomjs'
+#phantom_linuxdir = project_dir + '/phantom/linux/bin/phantomjs'
 #phantom_linuxdir= '/app/getrw_tiki/phantom/linux/bin/phantomjs'
 phantom_windir = project_dir + '/phantom/windows/bin/phantomjs'
 #print phantom_linuxdir
 #client = webdriver.PhantomJS(executable_path=r'/app/getrw_tiki/phantom/linux/bin/phantomjs') ### crawler js
-client = webdriver.PhantomJS()
+client = webdriver.PhantomJS
 #client = webdriver.PhantomJS(phantom_windir) ### crawler js
 class object_adayroi:
     def __init__(self,lnkweb,comment,lnkImg):
@@ -20,7 +20,7 @@ class object_adayroi:
         self.lnkweb = lnkweb
         self.comment = comment
         self.lnkImg = lnkImg
-    def returnvalue(self): # tra ve cac gia tri cua doi tuong
+    def returnvalue(self): # tra ve cac gia tri cua doi tuong########aâaaa
         obj = list() # tao mang rong
         obj.append(self.lnkweb) #them cac gia tri thuoc tinh vao list
         obj.append(self.comment)

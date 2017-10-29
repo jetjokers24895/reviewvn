@@ -3,7 +3,7 @@
 <title>Tiki-Xem Review</title>
 {% endblock %}
 {% block content %}
-
+{%load static%}
         <div class="container" style="margin-top:5%;padding-top:15%">
           <div class="row">
                 <div class="col-lg-12 text-center ">
@@ -21,15 +21,14 @@
                 <input type="text" class="form-control " name="keywords" placeholder="Tên Sản Phẩm mà bạn muốn tìm kiếm">
               </div>
             </div>
-            <div class="col-md-12 col-lg-12 col-xs-12" >
+            <div class="col-md-12 col-lg-12 col-xs-12" id= "notifi-text" >
                 
                 
-                <p class= "text-danger" sytle="font-size:28px; padding:1%">Dữ liệu đang được lấy khắp nơi trên Internet<br>Việc này sẽ mất vài phút</p>
                 </div>
-            <input type="submit" class= "btn btn-success" value="Tìm Review" />
+            <input type="submit" class= "btn btn-success" id= "btn-timkiem" value="Tìm Review" />
     </form>
     </div>
 </div>
 </div>
-
+<script src="{% static "js/custom.js"%}"></script>
 {% endblock %}            

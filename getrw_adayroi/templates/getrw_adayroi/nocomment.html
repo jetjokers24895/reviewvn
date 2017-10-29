@@ -1,0 +1,32 @@
+{% extends "index/index.html" %}
+{%load static%}
+{%block title%}
+<title>Sản phẩm không có đánh giá nào</title>
+{% endblock %}
+
+{% block content %}
+<div class= "container container-fluid" style="margin-top:5%">
+    <div class ="row">
+<p class="alert alert-warning" style="font-size:20px"> Sản Phẩm bạn chọn không có đánh giá nào!!<br><small>Hãy tìm kiếm ở các Trung Tâm khác ở đây</small><hr></p>
+    
+    
+    </div>
+</div>
+        <div class="container container-fluid" style="background-color:#dad8d8">
+          <div class="row">
+            <div class= "col-md-4 col-lg-4 col-xs-4 logo">
+              <a href="{% url "getrw:getreview" %}"><img class="img-responsive" height="300" width="300" src="{% static "img/logo-lazada.jpg"%}"></a>
+              <a class="text-logo" href="{% url "getrw:getreview" %}">Xem Review LAZADA</a>
+            </div>
+            <div class= "col-md-4 col-lg-4 col-xs-4 logo">
+                <a href="{% url "getrw_vatgia:getrw_vatgia" %}"><img class="img-responsive" height="300" width="300" src="{% static "img/a-day-roi.png"%}"></a>
+                <a class="text-logo" href="{% url "getrw_vatgia:getrw_vatgia" %}">Xem Review Vatgia</a>
+            </div>
+            <div class= "col-md-4 col-lg-4 col-xs-4 logo">
+                <a href="{% url "getrw_tiki:getrw_tiki" %}"> <img class="img-responsive" height="300" width="300" src="{% static "img/logo-vat-gia.png"%}"></a>
+                <a class="text-logo" href="{% url "getrw_tiki:getrw_tiki" %}">Xem Review Tiki</a>
+            </div>
+          </div>
+        </div>      
+
+{% endblock %}

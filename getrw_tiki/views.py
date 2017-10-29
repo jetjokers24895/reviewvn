@@ -29,4 +29,6 @@ def createobj(keywords):
 def mainaction(requests):
     keywords = requests.POST['keywords']
     lst= createobj(keywords)
+    if lst == []:
+        return render(requests,'getrw_tiki/nocomment.html')
     return render(requests,"getrw_tiki/review.html",{'lst':lst})

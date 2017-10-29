@@ -14,8 +14,8 @@ project_dir = os.path.dirname(os.path.abspath(__file__))
 phantom_windir = project_dir + '/phantom/windows/bin/phantomjs'
 #print phantom_linuxdir
 #client = webdriver.PhantomJS(executable_path=r'/app/getrw_tiki/phantom/linux/bin/phantomjs') ### crawler js
-client = webdriver.PhantomJS()
-#client = webdriver.PhantomJS(phantom_windir) ### crawler js
+#client = webdriver.PhantomJS()
+client = webdriver.PhantomJS(phantom_windir) ### crawler js
 
 
 class object:
@@ -50,9 +50,9 @@ def search_vatgia(keywords):
     link = 'http://vatgia.com/home/quicksearch.php?keyword='+k+'&sort=5'
     client.get(link)
     soup = BeautifulSoup(client.page_source,"html.parser")
-    fclass = soup.find_all("a","picture_link",limit=5)
+    fclass = soup.find_all("a","picture_link",limit=5)     
     return fclass
-
+'''
 def get_src(input): # get link src tu html element lazada
     rexp='(src=")(.*)"' #lay link cua the span
     f = re.compile(str(rexp)).findall(str(input))
@@ -60,5 +60,5 @@ def get_src(input): # get link src tu html element lazada
         print "1"
         rexp='(url\()(.*)\)'
         f = re.compile(str(rexp)).findall(str(input))
-    return f[0][1]
+    return f[0][1]'''
 #search_vatgia("iphone 5")

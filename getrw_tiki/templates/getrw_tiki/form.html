@@ -9,7 +9,7 @@
                 <div class="col-lg-12 text-center ">
 
     
-    <form action = "{% url 'getrw_tiki:createobj'%}"method= 'Post' role= "form">
+    <form action = "{% url 'getrw_tiki:createobj'%}" method= 'Post' role= "form">
             {% csrf_token %}
             <div class="form-group row">
                 <div class ="col-md-3 col-lg-3 col-xs3">
@@ -30,5 +30,17 @@
     </div>
 </div>
 </div>
-<script src="{% static "js/custom.js"%}"></script>
+<script>
+  var gifload_element = document.getElementById("btn-timkiem");
+gifload_element.onclick = function() {
+    notifi_func();
+};
+function notifi_func() {
+    var  notifi = document.getElementById("notifi-text");
+    notifi.innerHTML+= '<img class="img-responsive"  src="{% static "img/loading.gif" %}">';
+    notifi.innerHTML+='<p class= "text-danger" sytle="font-size:28px; padding:1%">Dữ liệu đang được lấy khắp nơi trên Internet<br>Việc này sẽ mất vài phút</p>';
+
+
+}
+</script>
 {% endblock %}            

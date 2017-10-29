@@ -20,7 +20,7 @@ def createobj(keywords):
             continue
         else:
             #print comment
-            linkimg = search_tiki.get_src(i.span)
+            linkimg = i.span.img.get('src')
             obj= search_tiki.object_tiki(linkweb,comment,linkimg) 
             listobj.append(obj)
         

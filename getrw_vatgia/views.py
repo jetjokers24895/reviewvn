@@ -19,7 +19,7 @@ def createobj(keywords):
             continue
         else:
             #print comment
-            linkimg = search_vatgia.get_src(i)
+            linkimg = i.img.get('src')#search_vatgia.get_src(i)
             obj= search_vatgia.object(linkweb,comment,linkimg) 
             listobj.append(obj)
     return listobj

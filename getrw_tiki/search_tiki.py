@@ -11,8 +11,8 @@ phantom_linuxdir = project_dir + '/phantom/linux/bin/phantomjs'
 phantom_windir = project_dir + '/phantom/windows/bin/phantomjs'
 #print phantom_linuxdir
 #client = webdriver.PhantomJS(executable_path=r'/app/getrw_tiki/phantom/linux/bin/phantomjs') ### crawler js
-client = webdriver.PhantomJS()
-#client = webdriver.PhantomJS(phantom_windir) ### crawler js
+#client = webdriver.PhantomJS()
+client = webdriver.PhantomJS(phantom_windir) ### crawler js
 
 
 class object_tiki:
@@ -53,5 +53,5 @@ def get_src(input): # get link src tu html element lazada
     rexp='(src=")(.*)"' #lay link cua the span
     f = re.compile(str(rexp)).findall(str(input))
     return f[0][1]
-#search_tiki("iphone 7")
+search_tiki("iphone 7")
 
